@@ -218,12 +218,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd3fb8c04f4bc8d48bbf65d0c992119a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 0
   boatRotation: 150
   boatSpeed: 4
   rend: {fileID: 831451904}
   Rightcolor: {r: 0, g: 0.06273794, b: 1, a: 1}
   Leftcolor: {r: 0, g: 0.8867924, b: 0.08801908, a: 1}
-  timer: 0
+  spacecolor: {r: 0.105882354, g: 0, b: 0.15294118, a: 1}
+  rColor1: 0
+  rColor2: 0
+  rColor3: 0
 --- !u!212 &831451904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -276,10 +280,10 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 831451902}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 0.04, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.67754185, w: 0.7354843}
+  m_LocalPosition: {x: 0.08, y: -1.49, z: 0}
   m_LocalScale: {x: 0.909, y: 1.761, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -634.696}
